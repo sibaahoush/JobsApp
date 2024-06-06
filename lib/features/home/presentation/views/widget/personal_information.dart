@@ -122,7 +122,7 @@ class _PersonalInfoFormState extends State<PersonalInfoForm> {
                 },
                 backgroundColor: Colors.yellow,
                 textColor: Colors.white,
-                text: 'Edit'),
+                text: 'follow'),
           ),
         ],
       ),

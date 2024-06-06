@@ -28,12 +28,15 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  awesome_dialog: ^3.2.1
   cupertino_icons: ^1.0.2
+  curved_navigation_bar: ^1.0.4
   flutter:
     sdk: flutter
   font_awesome_flutter: ^10.7.0
   persistent_bottom_nav_bar_v2: ^5.2.2
-
+  table_calendar: ^3.1.1
+  uuid: ^4.2.2
 dev_dependencies:
   flutter_lints: ^2.0.0
   flutter_test:
@@ -62,7 +65,7 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Pacifico 
+    - family: Pacifico
       fonts:
         - asset: fonts/Pacifico-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf

@@ -13,6 +13,11 @@ import 'package:jobsapp/features/home/presentation/views/widget/personal_informa
 import 'package:jobsapp/features/home/presentation/views/widget/Work_experianse.dart';
 import 'package:jobsapp/features/home/presentation/views/widget/skillse.dart';
 import 'package:jobsapp/features/info/presentation/views/info_view.dart';
+import 'features/Free/presentation/views/home_page.dart';
+import 'features/Free/presentation/views/widget/add_page.dart';
+import 'features/Free/presentation/views/widget/balance.dart';
+import 'features/Free/presentation/views/widget/information_job.dart';
+import 'features/Free/presentation/views/widget/searcher_page.dart';
 import 'features/auth/pesentation/register_view_company.dart';
 import 'features/auth/pesentation/views/log_in_view_company.dart';
 import 'features/home/presentation/views/home_view.dart';
@@ -46,8 +51,13 @@ class JobsApp extends StatelessWidget {
           AddJob.id: (context) => AddJob(),
           CompanyAccountInformation.id: (context) =>
               CompanyAccountInformation(),
-          CompanyHomeView.id: (context) => CompanyHomeView()
+          CompanyHomeView.id: (context) => CompanyHomeView(),
+          HomePage.id: (context) => HomePage(),
+          AddPage.id: (context) => AddPage(),
+          BalancePage.id: (context) => BalancePage(),
+          InformationJob.id: (context) => InformationJob(),
+          SearcherPage.id: (context) => SearcherPage(),
         },
-        initialRoute: AllJobsView.id);
+        initialRoute: Registerview.id);
   }
 }
